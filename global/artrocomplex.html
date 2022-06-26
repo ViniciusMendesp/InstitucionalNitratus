@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/styles/biocare.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <title>Artrocomplex</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img src="/img/footerLogo.png" alt="logo" width="90" height="24">
+          <a class="navbar-brand" href="index.html">Nitratus</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Sobre nós</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Unidades
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" onclick="handleChangeSlide(0, 'carouselExampleCaptions')">Basilio Batalha</a></li>
+                  <li><a class="dropdown-item" onclick="handleChangeSlide(1, 'carouselExampleCaptions')">Otto Unger</a></li>
+                  <li><a class="dropdown-item" onclick="handleChangeSlide(2, 'carouselExampleCaptions')">Campos Salles</a></li>
+                  <li><a class="dropdown-item" onclick="handleChangeSlide(3, 'carouselExampleCaptions')">Mogi Shopping</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" onclick="handleChangeSlide(4, 'carouselExampleCaptions')">Suzano</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" onclick="handleChangeSlide(5, 'carouselExampleCaptions')">Biritiba</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://nitratus.com.br/">Loja virtual</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventos.html">Eventos</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      
+
+      <div class="container">
+        <img src="/img/artro.jpg" class="img-fluid rounded mx-auto d-block" style="max-width: 25rem;" alt="">
+        <h1 class="text-center m-4">Artrocomplex</h1>
+        <p><b>Artrocomplex®</b> é um suplemento multifuncional e concentrado que ajuda a repor o colágeno e outros nutrientes importantes para articulações e ossos. <br> <br>
+
+            Contém a dosagem recomendada de peptídeos ativos de colágeno Peptan®, associada a antioxidantes como as vitaminas C, E e o mineral zinco. <br> <br> 
+            
+            Sua fórmula conta ainda com o Osteomix, um complexo exclusivo de vitamina D, cálcio e magnésio, que são elementos importantes para a manutenção da massa óssea íntegra e saudável. <br> <br>
+            
+            Os benefícios de Artrocomplex® podem ser percebidos por: <br> <br>
+            
+            • Praticantes de atividades físicas com impacto sobre as articulações <br> <br>
+            
+            • Pessoas com sobrepeso <br> <br>
+            
+            • Idosos <br> <br>
+              
+            • Mulheres na fase de pré e pós menopausa. <br> <br>
+            
+           <b>Artrocomplex® é a sua melhor escolha quando o assunto é mobilidade!</b></p>
+      </div>
+      <div class="back img-fluid">
+        <h3 class="text-center" style="color: white;">COMPLEMENTO NUTRICIONAL PARA GANHO</h3>
+        <h2 class="text-center" style="color: white;">DE PESO DE FORMA PRÁTICA, DELICIOSA E SAUDÁVEL</h2>
+
+        <img title="" sizes="" srcset="" src="https://sanavita.vtexassets.com/assets/vtex.file-manager-graphql/images/131bf922-8bee-4f4e-a619-33d6b1a2962d___b2f41c1c66f6e5ab08888b430d379406.gif" alt="" class="img-fluid mx-auto d-block" style="max-width: 25rem;" crossorigin="anonymous">
+        </div>
+        <div class="container m-3">
+            <h3 class="text-center m-2">Benefícios</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Reposição de colágeno nas articulações e ossos, com dosagem recomendada por estudos clínicos (10g) e marca reconhecida por especialistas (Peptan®).
+                </li>
+                <li class="list-group-item">
+                    Com vitamina C, que auxilia na formação do colágeno.
+                </li>
+                <li class="list-group-item">Protege contra os danos causados pelos radicais livres e atua auxiliando no funcionamento do sistema imune, devido a presença das vitaminas C, E e do mineral zinco.</li>
+                <li class="list-group-item">Ajuda a manter a massa óssea e muscular íntegra e saudável, pois contém o exclusivo Osteomix, complexo de vitamina D, cálcio e magnésio.</li>
+                <li class="list-group-item">Zero açúcares.</li>
+                <li class="list-group-item">Zero glúten.</li>
+                <li class="list-group-item">Zero lactose.</li>
+                <li class="list-group-item">Não contém corantes, aromas e adoçantes artificiais.</li>
+                <li class="list-group-item">Baixas calorias, apenas 40kcal/porção.</li>
+                <li class="list-group-item">Baixo Fodmap.</li>
+                <li class="list-group-item">Baixo índice glicêmico.</li>
+            </ul>
+        </div>
+        <div class="container m-5">
+            <img src="/img/dna.jpg" class="img-fluid mx-auto d-block rounded" alt="dna">
+            <h3 class="text-center m-3">Ingredientes</h3>
+            <h6>PEPTÍDEOS DE COLÁGENO</h6>
+            <p>Ingrediente obtido de fonte bovina, composto por pequenos fragmentos proteicos obtidos após um processo de hidrólise enzimática, que reduz o tamanho da molécula de colágeno. Estas pequenas estruturas são absorvidas com facilidade pelo organismo, e por isso, são mais efetivas que a molécula de colágeno in natura na geração de estímulos que promovem a produção de novas fibras de colágeno. Os aminoácidos presentes nos peptídeos de colágeno compõem a estrutura de tecidos importantes como a pele, ossos, cartilagens e ligamentos.1-3.</p>
+            <ul>
+                <li>Campos PM. et al. Clinical Pharmacology & Biopharmaceutics, 4:142, 2015.</li>
+                <li>Liu, D. Annual Review of Food Science and Technology, v. 6, n. 1, p. 527–557, 2015</li>
+                <li>*Sibilla, S. et al. The Open Nutraceuticals Journal, v. 8,p. 29–42, 2015.</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Informações nutricionais</h3>
+            <h6 class="text-center">Porção de 11g (1 colher-medida)</h6>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Quantidade por porção</th>
+                    <th scope="col">% VD(*)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Valor energético</td>
+                    <td>40 kcal = 168 kJ</td>
+                    <td>2%</td>
+                  </tr>
+                  <tr>
+                    <td>Carboidratos</td>
+                    <td>0g, dos quais:</td>
+                    <td>0%</td>
+                  </tr>
+                  <tr>
+                    <td>Açúcares</td>
+                    <td>0g, dos quais:</td>
+                    <td>**</td>
+                  </tr>
+                  <tr>
+                    <td>Lactose</td>
+                    <td>0 g</td>
+                    <td>**</td>
+                  </tr>
+                  <tr>
+                    <td>Proteinas</td>
+                    <td>10g</td>
+                    <td>20%</td>
+                  </tr>
+                    <tr>
+                        <td>Sódio</td>
+                        <td>50g</td>
+                        <td>2%</td>
+                    </tr>
+                    <tr>
+                        <td>Cálcio</td>
+                        <td>296mg</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Zinco</td>
+                        <td>2,1mg</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Magnésio</td>
+                        <td>78mg</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Vitamina D</td>
+                        <td>3,0pg</td>
+                        <td>60%</td>
+                    </tr>
+                    <tr>
+                        <td>Vitamina E</td>
+                        <td>3,0mg</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Vitamina C</td>
+                        <td>45mg</td>
+                        <td>100%</td>
+                    </tr>
+                </tbody>
+              </table>
+              <p style="color: rgb(196, 196, 196);">Não contém quantidades significativas de gorduras totais, gorduras saturadas, gorduras trans e fibra alimentar. *% Valores diários com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus valores diários podem ser maiores ou menores dependendo de suas necessidades energéticas. **VD não estabelecidos.</p>
+                <br>
+              <h6 class="text-center">Aminoácidos: Porção de 11 g (1 colher-medida)</h6>
+              <table class="table">
+                <thead>
+                    <th scope="col"></th>
+                    <th scope="col">Quantidade por porção</th>
+                    <th scope="col"></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hidroxiprolina</td>
+                        <td>1290 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Prolina</td>
+                        <td>1340 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Glicina</td>
+                        <td>1749 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Lisina</td>
+                        <td>420 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ácido Aspártico</td>
+                        <td>590 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Treonina</td>
+                        <td>160 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Serina</td>
+                        <td>320 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ácido Glutâmico</td>
+                        <td>1140 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Alanina</td>
+                        <td>890 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Valina</td>
+                        <td>240 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Metionina</td>
+                        <td>90 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Isoleucina</td>
+                        <td>130 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Leucina</td>
+                        <td>310 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tirosina</td>
+                        <td>20 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Fenilalanina</td>
+                        <td>220 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Histidina</td>
+                        <td>80 mg</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Arginina</td>
+                        <td>910 mg</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+              </table>
+              <p style="color: rgb(196, 196, 196);"><b>INGREDIENTES</b>: colágeno hidrolisado, carbonato de cálcio (cálcio), colecalciferol (vitamina D), óxido de magnésio (magnésio), ascorbato de sódio (vitamina C), DL alfa acetato de tocoferol (vitamina E), sulfato de zinco monohidratado (zinco), aroma natural e edulcorante natural glicosídeos de steviol (stévia).<b> NÃO CONTÉM GLÚTEN. ALÉRGICOS: PODE CONTER LEITE E SOJA.</b> Pode conter traços desses ingredientes devido ao compartilhamento de equipamentos, contudo, medidas rigorosas de controle e limpeza são adotadas para evitar esta ocorrência.</p>
+        </div>
+        <div class="container m-5">
+            <h3 class="text-center">Como devo consumir</h3> 
+            <div class="shadow-lg p-5 mb-4 bg-white mx-auto d-block rounded" style="max-width: 20rem;">
+              <img src="/img/copo.jpg" class="img-fluid mx-auto d-block mb-3" alt="">
+              <p class="text-center mx-auto d-block" style="text-align: justify; width:12rem; height:5rem;">Adicione 1 colher-medida (11 g) em 200 ml de água e mexa até completa dissolução.</p>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+          <h3 class="text-center">Perguntas frequentes</h3>
+          <h6>1) POR QUE O COLÁGENO É IMPORTANTE PARA OS OSSOS E ARTICULAÇÕES?</h6>
+          <p>O colágeno é um componente estrutural muito importante para os ossos e articulações, pois é responsável por sua rigidez e flexibilidade. Com o passar dos anos sua produção é reduzida e fatores como sobrepeso, atividades de alto impacto e doenças como a osteoartrite e osteoporose podem acelerar sua perda.</p>
+          <h6>2) QUAL A ORIGEM DO COLÁGENO PRESENTE EM ARTROCOMPLEX®?</h6>
+          <p>Artrocomplex® contém 10g por porção de colágeno hidrolisado Peptan®, de origem bovina. Esse tipo de colágeno é formado por peptídeos com baixíssimo tamanho (peso molecular 2.5 kDa), facilmente absorvidos pelo corpo.</p>
+          <h6>3) COMO ARTROCOMPLEX® PODE AJUDAR NO FORTALECIMENTO DOS OSSOS?</h6>
+          <p>Além dos peptídeos de colágeno, Artrocomplex® contém em sua fórmula o Osteomix, um complexo de cálcio, vitamina D e magnésio, além de zinco, elementos que auxiliam na formação e manutenção dos ossos.</p>
+          <h6>4) OS RADICAIS LIVRES PODEM CAUSAR DANOS PARA OS OSSOS E ARTICULAÇÕES?</h6>
+          <p>Sim! Os radicais livres são moléculas indesejáveis para os tecidos cartilaginoso e ósseo, por isso, a fórmula de Artrocomplex® apresenta um alto conteúdo de vitamina C, que também ajuda na formação de colágeno, além de vitamina E e zinco, elementos com ação antioxidante que atuam no organismo limitando os efeitos nocivos desses radicais.</p>
+          <h6>5) INTOLERANTES À LACTOSE E AO GLÚTEN PODEM CONSUMIR ARTROCOMPLEX®? E DIABÉTICOS E PORTADORES DE GOTA?</h6>
+          <p>Sim, todos podem consumir. Artrocomplex® é isento de glúten, lactose e não contém açúcares. Além disso, não contém purinas, elemento contraindicado para pessoas que tem elevado nível de ácido úrico no sangue (gota).</p>
+          <h6>6) PARA QUEM ARTROCOMPLEX® É INDICADO? EXISTEM CONTRAINDICAÇÕES?</h6>
+          <p>É indicado para homens e mulheres que necessitam de um reforço para a saúde dos ossos e articulações, especialmente praticantes de atividade física, idosos e pessoas com sobrepeso. O uso do suplemento não é indicado para pessoas intolerantes ou alérgicas a qualquer componente da fórmula.</p>
+          <h6>7) QUAL O MELHOR HORÁRIO DE CONSUMO?</h6>
+          <p>Recomendamos que o consumo ocorra em horários convenientes à rotina da pessoa, de preferência à noite, ao dormir, pois nesse momento a síntese de colágeno é mais favorecida.</p>
+          <h6>8) EM QUANTO TEMPO POSSO SENTIR OS BENEFÍCIOS?</h6>
+          <p>Os estudos mostram que os benefícios da suplementação de ativos como os presentes em Artrocomplex® podem ser sentidos a partir de 3 meses de suplementação.</p>
+          <h6>9) O PRODUTO CONTÉM DOSADOR? QUANTAS MEDIDAS DEVO UTILIZAR?</h6>
+          <p>Sim, Artrocomplex® contém dosador incluso na lata e para o preparo de uma porção, adicione 1 colher-medida (11g) em 200mL de água ou bebida de sua preferência, e mexa até completa dissolução.</p>
+        </div>
+        <br>
+      
+
+    <footer class="border-top text-bg-light p-3">  
+        <div>
+          <h4 class="text-center">FALE CONOSCO</h4>
+        </div>
+        <div class="container">
+          <div class="row">
+  
+            
+            <div class="col-6 col-sm-3">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+              </svg>
+              <span><a class="colorlink" style="text-decoration:none" href="https://api.whatsapp.com/send?l=pt&phone=551147283701&text=Poderia%20me%20ajudar?">1147283701</a></span>
+  
+            </div>
+            <div class="col-6 col-sm-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg>
+              <span><a class="colorlink" style="text-decoration:none" href="mailto:atendimento@nitratus.com">atendimento@nitratus.com</a></span>
+            </div>
+            <div class="col-6 col-sm-3">
+                  
+            </div>
+  
+            <div class="col-6 col-sm-3">
+              <img src="/img/footerLogo.png" id="img" style="max-width: 10rem;" alt="">
+          </div>
+      
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+                      
+                <div class="col-6 col-sm-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                <span><a class="colorlink" style="text-decoration:none" href="tel:+551147283700">1147283700</a></span>
+              </div>
+              <div class="col-6 col-sm-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+                <span><a class="colorlink" style="text-decoration:none" href="https://www.instagram.com/nitratus/">Instagram</a></span>
+              </div>
+            </div>
+          </div>
+              
+  
+          <p class="text-center colorcopy">Nitratus &copy;</p>
+        </div>
+  
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+           <a href="https://wa.me/551147283701?text=Poderia%20me%20ajudar?" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#3ab8b9;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+           z-index:1000;" target="_blank">
+          <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+          </a>  
+  
+    
+      </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
